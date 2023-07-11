@@ -1,5 +1,5 @@
 ---
-title: "Next.jsのtutorial抜粋"
+title: "Next.jsのコンポーネント"
 date: "2023-07-11"
 ---
 
