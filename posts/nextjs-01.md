@@ -1,5 +1,5 @@
 ---
-title: "abstract of Next.js tutorial to Japanese"
+title: "Next.jsのtutorial抜粋"
 date: "2023-07-11"
 ---
 
@@ -24,7 +24,7 @@ import Link from 'next/link'
 
 Link コンポーネントは、同じ Next.js アプリ内の 2 つのページ間の**クライアントサイドナビゲーション**を可能にする。
 
-## クライアントサイドナビゲーション
+### クライアントサイドナビゲーション
 
 クライアントサイドナビゲーションとは、JS を使用してページ遷移を行うことを意味する。
 ブラウザが行うデフォルトのナビゲーションよりも高速だ。
@@ -32,9 +32,19 @@ Link コンポーネントは、同じ Next.js アプリ内の 2 つのページ
 
 Next.js は自動的にコードを分割するため、各ページはそのページに必要なものだけを読み込む。
 
-Next.js has two forms of pre-rendering: **Static Generation** and **Server-side Rendering**. The difference is in **when** it generates the HTML for a page.
+## Image コンポーネント
 
-- **Static Generation** is the pre-rendering method that generates the HTML at **build time**. The pre-rendered HTML is then _reused_ on each request.
-- **Server-side Rendering** is the pre-rendering method that generates the HTML on **each request**.
+Next.js では、Image コンポーネントを提供している。
 
-Importantly, Next.js lets you **choose** which pre-rendering form to use for each page. You can create a "hybrid" Next.js app by using Static Generation for most pages and using Server-side Rendering for others.
+```
+import Image from 'next/image'
+```
+
+上記のように Link コンポーネントを import することで、簡単にページ遷移をすることができる。
+
+HTML の`<img>`要素を拡張したもので、画像をリサイズ、最適化して提供することができる。
+
+Next.js は build 時に画像を最適化するのではなく、ユーザーからのリクエストに応じてオンデマンドで画像を最適化する。
+画像はデフォルトで遅延ロードされる。画像はビューボードにスクロールされると読み込まれるため、ビューボード外の画像によってページ速度が低下することはない。
+
+次回は、pre-rendering について書く。
