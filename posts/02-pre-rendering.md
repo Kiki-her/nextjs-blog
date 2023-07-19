@@ -3,8 +3,6 @@ title: "Pre-renderingについて"
 date: "2023-07-12"
 ---
 
-Next.js の tutorial を抜粋して、主に React との相違点をまとめる。
-
 ## Pre-rendering
 
 デフォルトでは、Next.js はすべてのページを pre-rendering する。各ページの HTML を事前に生成することで、パフォーマンスと SEO が向上する。
