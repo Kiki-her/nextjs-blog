@@ -1,9 +1,9 @@
 ---
 title: "静的生成について"
-date: "2023-07-19"
+date: "2023-07-18"
 ---
 
-Next.js の tutorial を抜粋してまとめる。
+[Next.js](https://nextjs.org/) の tutorial を抜粋してまとめる。
 
 ## データを使用した静的生成
 

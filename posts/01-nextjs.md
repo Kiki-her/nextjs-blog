@@ -3,7 +3,7 @@ title: "Next.jsのコンポーネント"
 date: "2023-07-11"
 ---
 
-Next.js の tutorial を抜粋して、主に React との相違点をまとめる。
+[Next.js](https://nextjs.org/) の tutorial を抜粋してまとめる。
 
 ## <Link>component を使う
 

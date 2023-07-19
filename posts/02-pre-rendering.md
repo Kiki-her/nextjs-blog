@@ -3,6 +3,8 @@ title: "Pre-renderingについて"
 date: "2023-07-12"
 ---
 
+[Next.js](https://nextjs.org/) の tutorial を抜粋してまとめる。
+
 ## Pre-rendering
 
 デフォルトでは、Next.js はすべてのページを pre-rendering する。各ページの HTML を事前に生成することで、パフォーマンスと SEO が向上する。

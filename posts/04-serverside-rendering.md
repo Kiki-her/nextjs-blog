@@ -1,9 +1,9 @@
 ---
 title: "Server-side Renderingについて"
-date: "2023-07-20"
+date: "2023-07-19"
 ---
 
-Next.js の tutorial を抜粋してまとめる。
+[Next.js](https://nextjs.org/) の tutorial を抜粋してまとめる。
 
 ## リクエスト時のデータの取得
 
